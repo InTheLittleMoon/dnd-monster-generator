@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.css";
 
+//components
+import UserChoiceContainer from "./components/User-Choice-Container/User-Choice-Container";
+
 function App() {
   return (
     <div>
-      <h1>Gets here</h1>
+      <UserChoiceContainer />
     </div>
   );
 }
